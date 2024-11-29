@@ -73,10 +73,10 @@ if __name__ == "__main__":
         try:
             print('Calculadora')
             print('----------------------------------\n')
-            numero1: float = float(input('Introduza o primeiro número:').strip())
-            numero2: float = float(input('Introduza o segundo número:').strip())
-            operacao: str = input('Introduza a operação a realizar (+ - / *) ou (% ^):').strip()
-            print(f'O resultado: {calculadora_v2(numero1, numero2, operacao)}')
+            numero1: float = float(input('Introduza o primeiro número:'))
+            numero2: float = float(input('Introduza o segundo número:'))
+            operacao: str = input('Introduza a operação a realizar (+ - / *) ou (% ^):')
+            print(f'O resultado: {calculadora_v3(numero1, numero2, operacao)}')
             print()
             cont: str = input('Deseja continuar? (s/n):').lower()
             if cont == 'n':
