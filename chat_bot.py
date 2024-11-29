@@ -43,6 +43,7 @@ def obter_resposta(texto: str) -> str:
 
     return f'Desculpa, não entendi a questão! {texto}'
 
+
 def chat() -> None:
     print('Bem-vindo ao ChatBot!')
     print('Escreva "bye" para sair do chat')
