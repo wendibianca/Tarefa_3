@@ -28,7 +28,8 @@ def obter_resposta(texto: str) -> str:
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...', 
         'horas': f'São: {datetime.now():%H:%M} horas',
         ('data', 'dia'): f'Hoje é dia: {datetime.now():%d-%m-%Y}',
-        ('quais as estações do ano', 'quais as 4 estações do ano'): 'As quatro estações do ano são: Primavera, Verão, Outono e Inverno!'
+        ('quais as estações do ano', 'quais as 4 estações do ano'): 'As quatro estações do ano são: Primavera, Verão, Outono e Inverno!',
+        ('quais são as cores primárias', 'quais as cores primárias'):'As cores primárias são: Vermelho, Verde e Azul'
     }
 
     for chave, resposta in respostas.items():
