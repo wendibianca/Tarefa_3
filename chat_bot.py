@@ -31,7 +31,8 @@ def obter_resposta(texto: str) -> str:
         ('quais as estações do ano', 'quais as 4 estações do ano'): 'As quatro estações do ano são: Primavera, Verão, Outono e Inverno!',
         ('quais são as cores primárias', 'quais as cores primárias'):'As cores primárias são: Vermelho, Verde e Azul',
         ('o que são números pares', 'números pares'): 'Os números pares são todos os números que são divisíveis por 2!',
-        ('quantos meses do ano tem 31 dias', 'quantos meses tem 31 dias'): 'São 7 os meses que tem 31 dias, no caso são:\nJaneiro, Março, Maio, Julho, Agosto, Outubro e Dezembro'
+        ('quantos meses do ano tem 31 dias', 'quantos meses tem 31 dias'): 'São 7 os meses que tem 31 dias, no caso são:\nJaneiro, Março, Maio, Julho, Agosto, Outubro e Dezembro',
+        ('quantos meses tem um ano', 'um ano tem quantos meses'): 'Um ano possui 12 meses!\nJaneiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro e Dezembro'
     }
 
     for chave, resposta in respostas.items():
